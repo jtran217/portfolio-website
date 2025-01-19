@@ -1,8 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import campusBuddyImg from "@/public/campusbuddy.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,38 +35,45 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Computer Science",
+    location: "Calgary, AB",
+    description: "Extra-Curriculars: TechStartUCalgary, Solar Car",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend/UI Developer - Campus Buddy",
+    location: "Calgary, AB",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Designed the logo and user interface (UI) for Campus Buddy, a mobile app aimed at connecting university students. Contributed to front-end development by implementing the designed pages",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "September 2023  - June 2024",
+  },
+  {
+    title: "Co-op Software Developer - SeisWare International Inc",
+    location: "Calgary, AB",
+    description:
+      "Resolved software bugs, migrated the company's unit testing framework from NUnit to MSTest, and led the upgrade of the software from Qt 5.14 to Qt 5.15, enhancing functionality, performance, and stability.",
+    icon: React.createElement(FaReact),
+    date: "January 2024 - August 2024",
+  },
+  {
+    title: "Contract Developer - Durandel",
+    location: "Calgary, AB",
+    description:
+      "Led the project to convert a SaaS application from the Angular framework to Next.js and successfully deployed it on AWS.",
+    icon: React.createElement(FaReact),
+    date: "February 2024  - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Campus Buddy",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A React Native application connecting university student together through events,posts exclusive initiatives",
+    tags: ["React Native", "Typescript", "Node.js", "Express", "Prisma", "AWS"],
+    imageUrl: campusBuddyImg,
   },
   {
     title: "rmtDev",
@@ -90,6 +97,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
@@ -102,6 +110,5 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Spring Boot",
 ] as const;

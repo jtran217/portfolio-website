@@ -19,30 +19,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I'am a second-year Computer Science student at the University of Calgary
+        with a background in Molecular Cellular Biology from Mount Royal
+        University. My journey into coding began during my first degree, where I
+        discovered how engaging and rewarding programming can be—and I’ve been
+        hooked ever since.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        I’m passionate about learning and always strive to expand my skill set.
+        Whether it’s mastering a new framework, picking up a new language, or
+        trying my hand at a new sport, I embrace challenges as opportunities to
+        grow.
+      </p>
+      <p>
+        My transition from biology to computer science reflects my belief that
+        education and curiosity are the keys to innovation. I’m excited to merge
+        my analytical mindset and coding skills to create impactful solutions.
       </p>
     </motion.section>
   );
